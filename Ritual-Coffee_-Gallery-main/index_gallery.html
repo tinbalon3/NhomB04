@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery</title>
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.0-web/css/all.css">
+       <link rel="stylesheet" href="./css/grid.css">
+       <link rel="stylesheet" href="../Web-index/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="main">
+            <div class="header js-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="header__navbar col-lg-12 col-md-12">
+                          <div class="header__navbar-item-img col-lg-2 ">
+                                <img src="./img/logo.png" alt="" class="header-item-img">
+                         </div>
+                         <div class="list col-lg-10">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-list-item">
+                                <a href="../index.html" class="header__navbar-item-link">Home</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="../About-us-main/index_aboutus.html" class="header__navbar-item-link">About Us</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="./index_gallery.html" class="header__navbar-item-link"> Gallery</a>
+                               </li>
+                            <li class="header__navbar-list-item">
+                                <a href="../Project/html/blog_detail1.html" class="header__navbar-item-link">Blogs</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                <a href="../Project/html/Contact_Us.html" class="header__navbar-item-link">Contact Us</a>
+                                </li>
+                            <li class="header__navbar-list-item">
+                                    <a href="../Product-List-main/index_no_login.html" class="header__navbar-item-link">Product</a>
+                                </li>
+                                <li class="header__navbar-list-item ">
+                                    <a href="./login.html" class="header__navbar-item-link">Login</a>
+                                    </li>
+                                <li class="header__navbar-list-item login">
+                                        <div class="avatar">
+                                            <div class="icon_avatar">
+                                                <i class="fa-solid fa-user-tie"></i>
+                                            </div>
+                                            <div class="name_user">
+                                                <p class="username_customer"></p>
+                                            </div>
+                                        </div>
+                                        <div class="nav_ava">
+                                            <div class="nav_ava_list">
+                                                
+                                                <div class="nav_ava_icon_out">
+                                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                                </div>
+                                                <div class="nav_ava_a" onclick="logout()">
+                                                    <a href="/index.html">Log out</a>
+                                                </div>
+                                            </div>
+                                            <div class="nav_ava_list">  
+                                                <div class="nav_ava_icon_out">
+                                                    <i class="fa-solid fa-address-card"></i>
+                                                </div>
+                                                <div class="nav_ava_a">
+                                                    <a href="/DetailsHD/info.html">About You</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="span"></div>
+                                    </li>
+                                
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="body">
+               
+                <div class="body__slider ">
+                    <img src="./img/about-us-slider.jpg" alt="Slider image" class="body__slider-img">
+                    <div class="slider__text-content">
+                        <h1 class="slider__text-heading">Gallery</h1>
+                        <ul class="slider__text-sub-heading">
+                            <li class="slider__text-sub-heading-item">
+                                <a href="../index.html" class="slider__text-sub-heading-link slider__text-sub-heading-link--separate">Home</a>
+                            </li>
+                            <li class="slider__text-sub-heading-item">
+                                <a href="" class="slider__text-sub-heading-link">Gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="body__our-gallery">
+                    <div class="body__our-gallery-container">
+                        <div class="body__our-gallery-container-title">
+                            <p class="body__our-gallery-container-title1">Album</p>
+                            <h2 class="body__our-gallery-container-title2">Our Gallery</h2>
+                        </div>
+                    </div>
+                    <div class="body__our-gallery-container-img grid-container">
+                        <div class="gallery">
+                            <div class="gallery-img-list ">
+                                <img src="./img/tb-gallery-images-01 (1).jpg" alt="Gallery image" class="gallery-img">
+                            </div>
+                            <div class="gallery-text">
+                                <h2 class="gallery-text-1">FRAPPUCCINO</h2>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <div class="gallery-img-list gallery-img-list--margin">
+                                <img src="./img/tb-gallery-images-02.jpg" alt="Gallery image" class="gallery-img">
+                            </div>
+                            <div class="gallery-text">
+                                <h2 class="gallery-text-1">CAFÉ MOCHA</h2>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <div class="gallery-img-list ">
+                                <img src="./img/tb-gallery-images-03.jpg" alt="Gallery image" class="gallery-img">
+                            </div>
+                            <div class="gallery-text">
+                                <h2 class="gallery-text-1">TURKISH COFFEE</h2>
+                            </div>
+                        </div>
+                        <div class="gallery ">
+                            <div class="gallery-img-list ">
+                                <img src="./img/tb-gallery-images-04.jpg" alt="Gallery image" class="gallery-img">
+                            </div>
+                            <div class="gallery-text">
+                                <h2 class="gallery-text-1">CAFE CUBANO</h2>
+                            </div>
+                        </div>
+                        <div class="gallery ">
+                            <div class="gallery-img-list gallery-img-list--margin">
+                                <img src="./img/tb-gallery-images-05.jpg" alt="Gallery image" class="gallery-img">
+                            </div>
+                            <div class="gallery-text">
+                                <h2 class="gallery-text-1">For Couple</h2>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <div class="gallery-img-list ">
+                                <img src="./img/tb-gallery-images-06.jpg" alt="Gallery image" class="gallery-img">
+                            </div>
+                            <div class="gallery-text">
+                                <h2 class="gallery-text-1">AMERICANO</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+
+
+            <div id="footer">
+                <div class="footer__container">
+                    <div class="footer__border">
+                            <div class="footer__logo-text cols-3">
+                                <a href="" class="footer__logo-text-link">
+                                    <img src="./img/logo.png" alt="Footer logo" class="footer__logo-text-img">
+                                </a>
+                                <p>I use Lorem ipsum text all day long and spend hours formatting it, so I set this site up to make my day a little easier.</p>
+                            </div>
+                            
+                            <div class="footer__menu">
+                                <div class="footer__toggle-menu cols-3">
+                                    <h2 class="footer__toggle-menu-head">Quick links</h2>
+                                    <ul class="list-unstyled list-hover">
+                                        <li class="item-unstyled list-hover item-unstyled-home" ><a href=""><i class="fa-solid fa-caret-right"></i>Home</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-AboutUs"><a href=""><i class="fa-solid fa-caret-right"></i>About us</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-service"><a href=""><i class="fa-solid fa-caret-right"></i>Services</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-gallery"><a href=""><i class="fa-solid fa-caret-right"></i>Gallery</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-blog"><a href=""><i class="fa-solid fa-caret-right"></i>Blog</a></li>
+                                        <li class="item-unstyled list-hover item-unstyled-contactus"><a href=""><i class="fa-solid fa-caret-right"></i>Contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer__toggle-menu cols-3">
+                                    <h2 class="footer__toggle-menu-head">Contact us</h2>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="footer__content-section">
+                                                <div class="footer__content-section-icon">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </div>
+                                                <div class="footer__content-text">
+                                                    <h3>Location :</h3>
+                                                    <p>A20 Green Hill Road, <br> Fayetteville,California</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer__content-section">
+                                                <div class="footer__content-section-icon">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                </div>
+                                                <div class="footer__content-text">
+                                                    <h3>Phone :</h3>
+                                                    <a href="tel:+120922326350">+1 209-223-2635</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer__content-section">
+                                                <div class="footer__content-section-icon">
+                                                    <i class="fa-solid fa-envelope"></i>
+                                                </div>
+                                                <div class="footer__content-text">
+                                                    <h3>Email :</h3>
+                                                    <a href="mailto:info@ritualcoffee.com">info@ritualcoffee.com</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer__toggle-menu cols-3 footer__toggle-instagram">
+                                    <h2 class="footer__toggle-menu-head">Instagram</h2>
+                                        <ul class="list-unstyled grid-container">
+
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-01.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+
+                                                </div>
+                                            </li>
+            
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-02.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-03.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-04.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-05.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer__instagram-img-container">
+                                                <img src="./img/tb-footer-instagram-img-06.jpg" alt="Footer Instagram" class="footer__instagram-img">
+                                                <div class="img-modal">
+                                                    <a href="#">
+                                                        <i class="fa-brands fa-instagram social-icon"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="clear"></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="footer__sub-container">
+                    <div class="footer_copyright">
+                        <p>Copyright © 2022 <a href="#URL" class="footer__copyright-hover">Ritual coffee</a>. All Rights Reserved.</p>
+                    </div>
+                    <div class="footer__social-icon">
+                        <ul class="footer__social-icon-list">
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f social-icon"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-twitter social-icon"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-skype social-icon"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-icon-item list-hover">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram social-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        
+            
+
+        </div>
+        <script>
+            // when scroll, header will change
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+            document.querySelector('.header').style.top = "0";
+            document.querySelector('.header').classList.add('thaydoiheader');
+            } else {
+            document.querySelector('.header').style.top = "-96px";
+            }
+            if(currentScrollPos == 0)
+            {
+                document.querySelector('.header').classList.remove('thaydoiheader');
+            }
+            prevScrollpos = currentScrollPos;
+            }
+
+            function setWidth()
+        {
+            //Set width span nav_user
+            const widthOfname=document.querySelector('.username_customer').offsetWidth;
+            const usertNameElement = document.querySelector('.span');
+           
+            usertNameElement.style.width=widthOfname+'px';
+        }
+        // Check xem có phải admin hay không
+       var isUser = JSON.parse(localStorage.getItem("IsUser"))
+        //Nếu không thì là set name là customer
+        var list = document.querySelectorAll('.header__navbar-list-item');
+        if(isUser.value)
+        {
+            list[6].style.display="none";
+            list[7].classList.remove('login')
+           var credentials = JSON.parse(localStorage.getItem("credentials"));
+            document.querySelector('.username_customer').innerHTML=credentials.name;
+            setWidth();
+        }
+        function setConfig(value)
+                {
+                    localStorage.setItem(
+                        "IsUser",
+                        JSON.stringify({ value: value })
+                    );
+                }
+        function logout()
+        {
+            list[6].style.display="block";
+            list[7].classList.add('login')
+            setConfig(false)
+        }
+            
+        </script>
+        <script src="./css/createLink.js"></script>
+    </body>
+</html>

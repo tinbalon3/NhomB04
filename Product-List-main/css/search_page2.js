@@ -5,8 +5,8 @@ var arrayOfProduct = [
         name: 'Indonesia Coffee',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../Product-List-main/img/product-img-10.png',
-        link: '../html/Detail_IndonesiaCoffee.html',
+        image: './img/product-img-10.png',
+        link: './html/Detail_IndonesiaCoffee.html',
         type: 3
     },
     {
@@ -14,8 +14,8 @@ var arrayOfProduct = [
         name: 'Brazil Coffee',
         price: '$35.00',
         priceCurrent: 35,
-        image: '../Product-List-main/img/product-img-11.png',
-        link: '../html/Detail_BrazilCoffee.html',
+        image: './img/product-img-11.png',
+        link: './html/Detail_BrazilCoffee.html',
         type: 3
     },
     {
@@ -23,8 +23,8 @@ var arrayOfProduct = [
         name: 'Mental Cup',
         price: '$23.00',
         priceCurrent: 23,
-        image: '../Product-List-main/img/ProductList-img-MetalCup.png',
-        link: '../html/Detai_MeatlCup.html',
+        image: './img/ProductList-img-MetalCup.png',
+        link: './html/Detai_MeatlCup.html',
         type: 3
     },
     {
@@ -32,8 +32,8 @@ var arrayOfProduct = [
         name: 'Dispensing Tray',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../Product-List-main/img/ProductList-img-DespensingTray.png',
-        link: '../html/Detail_DispensingTray.html',
+        image: './img/ProductList-img-DespensingTray.png',
+        link: './html/Detail_DispensingTray.html',
         type: 3
     },
     {
@@ -41,8 +41,8 @@ var arrayOfProduct = [
         name: 'Measuring Coffee',
         price: '$16.00',
         priceCurrent: 16,
-        image: '../Product-List-main/img/ProductList-img-MeasuringCup.png',
-        link: '../html/Detail_MeasuringCup.html',
+        image: './img/ProductList-img-MeasuringCup.png',
+        link: './html/Detail_MeasuringCup.html',
         type: 3
     },
     {
@@ -50,8 +50,8 @@ var arrayOfProduct = [
         name: 'Ceramic Cup',
         price: '$37.00',
         priceCurrent: 37,
-        image: '../Product-List-main/img/Productlist-img-CeramicCup.png',
-        link: '../html/Detail_CeramicCup.html',
+        image: './img/Productlist-img-CeramicCup.png',
+        link: './html/Detail_CeramicCup.html',
         type: 3
     },
     {
@@ -59,8 +59,8 @@ var arrayOfProduct = [
         name: 'Coffee Capsule',
         price: '$12.00',
         priceCurrent: 12,
-        image: '../Product-List-main/img/productList-img-CoffeeCapsule.png',
-        link: '../html/Detail_CoffeeCapsule.html',
+        image: './img/productList-img-CoffeeCapsule.png',
+        link: './html/Detail_CoffeeCapsule.html',
         type: 3
     }
     ]
@@ -70,8 +70,8 @@ var arrayOfProduct = [
         name: 'ETHIOPIA COFFEE',
         price: '$15.99',
         priceCurrent:15,
-        image: '../Product-List-main/img/productList-img-1.png',
-        link:'../Product-List-main/html/Detail_ProductList.html',
+        image: './img/productList-img-1.png',
+        link:'./html/Detail_ProductList.html',
         type:1
         },
         {
@@ -79,7 +79,7 @@ var arrayOfProduct = [
         name: 'FRENCH PRESS',
         price: '$23.99',
         priceCurrent:23,
-        image: '../Product-List-main/img/productList-img-21.png',
+        image: './img/productList-img-21.png',
         link: './html/Detail_FrenchPress.html',
         type:2
         },
@@ -88,7 +88,7 @@ var arrayOfProduct = [
         name: 'KENYA COFFEE',
         price: '$18.00',
         priceCurrent:18,
-        image: '../Product-List-main/img/productList-img-3.png',
+        image: './img/productList-img-3.png',
         link: './html/Detail_KenyaCoffee.html',
         type:3
         },
@@ -97,7 +97,7 @@ var arrayOfProduct = [
         name: 'DOLCE GUSTO',
         price: '$12.00',
         priceCurrent:12,
-        image: '../Product-List-main/img/backgroundCopy_1.png',
+        image: './img/backgroundCopy_1.png',
         link: './html/Detail_DolceGusto.html',
         type:4
         },
@@ -106,8 +106,8 @@ var arrayOfProduct = [
         name: 'Columbia Coffee',
         price: '$21.00',
         priceCurrent:21,
-        image: '../Product-List-main/img/productList-img-5.png',
-        link:'../Product-List-main/html/Detai_ColumbiaCoffee.html',
+        image: './img/productList-img-5.png',
+        link:'./html/Detai_ColumbiaCoffee.html',
         type:4
         },
         {
@@ -115,7 +115,7 @@ var arrayOfProduct = [
         name: 'Coffee Kettle',
         price: '$90.00',
         priceCurrent:90,
-        image: '../Product-List-main/img/ProductList-img-6.png',
+        image: './img/ProductList-img-6.png',
         link:'./html/Detail_CoffeeKettle.html',
         type:1
         },
@@ -124,7 +124,7 @@ var arrayOfProduct = [
         name: 'Espresso Machine',
         price: '$600.00',
         priceCurrent:600,
-        image: '../Product-List-main/img/ProductList-img-7.png',
+        image: './img/ProductList-img-7.png',
         link:'./html/Detail_EspressoMachine.html',
         type:0
         },
@@ -133,7 +133,7 @@ var arrayOfProduct = [
         name: 'Guatemala Coffee',
         price: '$25.00',
         priceCurrent:25,
-        image: '../Product-List-main/img/product-img-8.png',
+        image: './img/product-img-8.png',
         link:'./html/Detail_Guatemala.html',
         type:3
         },
@@ -142,7 +142,7 @@ var arrayOfProduct = [
         name: 'Filter handle',
         price: '$80.00',
         priceCurrent:80,
-        image: '../Product-List-main/img/ProductList-img-9.png',
+        image: './img/ProductList-img-9.png',
         link:'./html/Detail_FilterHandle.html',
         type:3
         },
@@ -151,8 +151,8 @@ var arrayOfProduct = [
         name: 'Indonesia Coffee',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../Product-List-main/img/product-img-10.png',
-        link: '../html/Detail_IndonesiaCoffee.html',
+        image: './img/product-img-10.png',
+        link: './html/Detail_IndonesiaCoffee.html',
         type: 3
         },
         {
@@ -160,8 +160,8 @@ var arrayOfProduct = [
         name: 'Brazil Coffee',
         price: '$35.00',
         priceCurrent: 35,
-        image: '../Product-List-main/img/product-img-11.png',
-        link: '../html/Detail_BrazilCoffee.html',
+        image: './img/product-img-11.png',
+        link: './html/Detail_BrazilCoffee.html',
         type: 2
         },
         {
@@ -169,7 +169,7 @@ var arrayOfProduct = [
         name: 'Mental Cup',
         price: '$23.00',
         priceCurrent: 23,
-        image: '../Product-List-main/img/ProductList-img-MetalCup.png',
+        image: './img/ProductList-img-MetalCup.png',
         link: './Detai_MeatlCup.html',
         type: 4
         },
@@ -178,8 +178,8 @@ var arrayOfProduct = [
         name: 'Dispensing Tray',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../Product-List-main/img/ProductList-img-DespensingTray.png',
-        link: '../html/Detail_DispensingTray.html',
+        image: './img/ProductList-img-DespensingTray.png',
+        link: './html/Detail_DispensingTray.html',
         type: 1
         },
         {
@@ -187,8 +187,8 @@ var arrayOfProduct = [
         name: 'Measuring Cup',
         price: '$16.00',
         priceCurrent: 16,
-        image: '../Product-List-main/img/ProductList-img-MeasuringCup.png',
-        link: '../html/Detail_MeasuringCup.html',
+        image: './img/ProductList-img-MeasuringCup.png',
+        link: './html/Detail_MeasuringCup.html',
         type: 3
         },
         {
@@ -196,8 +196,8 @@ var arrayOfProduct = [
         name: 'Ceramic Cup',
         price: '$37.00',
         priceCurrent: 37,
-        image: '../Product-List-main/img/Productlist-img-CeramicCup.png',
-        link: '../html/Detail_CeramicCup.html',
+        image: './img/Productlist-img-CeramicCup.png',
+        link: './html/Detail_CeramicCup.html',
         type: 4
         },
         {
@@ -205,8 +205,8 @@ var arrayOfProduct = [
         name: 'Coffee Capsule',
         price: '$12.00',
         priceCurrent: 12,
-        image: '../Product-List-main/img/productList-img-CoffeeCapsule.png',
-        link: '../html/Detail_CoffeeCapsule.html',
+        image: './img/productList-img-CoffeeCapsule.png',
+        link: './html/Detail_CoffeeCapsule.html',
         type: 2
         }
         ]

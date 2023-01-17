@@ -9,11 +9,11 @@
                 const hoverimg=document.querySelectorAll('.js-onmouse');
                 const search=document.querySelectorAll('.js-search');
                 var imgs=[
-                '../Web-index/img/gallery1.jpg',
-                '../Web-index/img/gallery2.jpg',
-                '../Web-index/img/gallery3.jpg',
-                '../Web-index/img/gallery4.jpg',
-                '../Web-index/img/gallery6.jpg' ]
+                './Web-index/img/gallery1.jpg',
+                './Web-index/img/gallery2.jpg',
+                './Web-index/img/gallery3.jpg',
+                './Web-index/img/gallery4.jpg',
+                './Web-index/img/gallery6.jpg' ]
 
                 // declare variable modal
                 const click_img=document.querySelectorAll('.js-img');
@@ -30,9 +30,9 @@
                 var next_left_blog=document.querySelector('.js-left-blog');
                 var img_blog=document.querySelector('.js-img-blog')
                 var imgsblog=[
-                '../Web-index/img/blog1.jpg',
-                '../Web-index/img/blog2.jpg',
-                '../Web-index/img/blog3.jpg'
+                './Web-index/img/blog1.jpg',
+                './Web-index/img/blog2.jpg',
+                './Web-index/img/blog3.jpg'
                 ]
 
 

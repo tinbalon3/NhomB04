@@ -27,7 +27,7 @@ const orderBtn = document.querySelector('.button-alt');
                 type: "success",
                 duration: 5000
                 });
-                orderBtn.innerHTML=`<a href="/Product-List-main/index_productList.html">Return To Product Page</a>`
+                orderBtn.innerHTML=`<a href="../../Product-List-main/index_productList.html">Return To Product Page</a>`
                
                 }
                 

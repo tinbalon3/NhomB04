@@ -201,7 +201,7 @@ animation: fadeIn1 ease-in-out 400ms;
     bottom: -10px;
     width: 100%;
     height: 21px;
-    background-image: url(/Ritual-Coffee_-Gallery-main/img/tb-about-before.png);
+    background-image: url(../img/tb-about-before.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -275,7 +275,7 @@ animation: fadeIn1 ease-in-out 400ms;
 .body__our-gallery{
     padding: 0 15px;
     padding-top: 120px;
-    background-image: url(/Ritual-Coffee_-Gallery-main/img/site-bg.jpg);
+    background-image: url(../img/site-bg.jpg);
 }
 /*
 .body__our-gallery::before{
@@ -378,7 +378,7 @@ animation: fadeIn1 ease-in-out 400ms;
     right: auto;
     bottom: auto;
     top: auto;
-    background-image: url(/img/tb-footer-cms-before.png);
+    background-image: url(../img/tb-footer-cms-before.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 182px;

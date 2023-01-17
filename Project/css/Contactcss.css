@@ -484,6 +484,10 @@ animation: fadeIn1 ease-in-out 400ms;
 }
 
 /*FOOTER*/
+.footer
+{
+    overflow: hidden;
+}
 #footer{
     background-color: #111;
     height: 456px;

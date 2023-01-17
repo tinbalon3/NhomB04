@@ -271,6 +271,7 @@ animation: fadeIn1 ease-in-out 400ms;
     background-image: url(../img/slider__bottom.png);
     width: 100%;
     top: 99%;
+    background-size: cover;
     height: 860px;
 }
 .about__us
@@ -278,15 +279,7 @@ animation: fadeIn1 ease-in-out 400ms;
     position: relative;
     height: 650px;
 }
-.about__us::before
-{
-    position: absolute;
-    display: block;
-    content: "";
-    background-image: url(.../img/slider__bottom.png);
-    width: 100%;
-    height: 860px;
-}
+
 
 .abus-img1
 {
@@ -384,18 +377,7 @@ animation: fadeIn1 ease-in-out 400ms;
     height: 700px;
     overflow: hidden;
 }
-.about__us::after
-{
-    content: "";
-    display: block;
-    background-image: url(../img/slider__bottom.png);
-    position: absolute;
-    bottom: -1%;
-    height: 21px;
-    width: 100%;
-    transform: rotateX(180deg);
-    z-index: 1;
-}
+
 
 .section__content
 {
@@ -1214,10 +1196,12 @@ animation: fadeIn1 ease-in-out 400ms;
     text-align: center;
     line-height: 2.4rem;
 }
-.blog_button span:hover
+.blog_button a:hover
 {
     background-color: var(--Brown-color);
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 
 }
 .blog_button
@@ -1226,7 +1210,7 @@ animation: fadeIn1 ease-in-out 400ms;
     margin-bottom: 16px;
     transition: all ease-in-out 0.5s;
 }
-.blog_button span
+.blog_button a
 {
     color: #fff;
     font-size: 1.6rem;

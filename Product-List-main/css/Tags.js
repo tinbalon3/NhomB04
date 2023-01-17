@@ -4,8 +4,8 @@ var arrayOfAroma = [
         name: 'FRENCH PRESS',
         price: '$23.99',
         priceCurrent:23,
-        image: '../img/productList-img-21.png',
-        link: '../html/Detail_FrenchPress.html',
+        image: './img/productList-img-21.png',
+        link: './html/Detail_FrenchPress.html',
         type:2
     },
     {
@@ -13,8 +13,8 @@ var arrayOfAroma = [
         name: 'DOLCE GUSTO',
         price: '$12.00',
         priceCurrent:12,
-        image: '../img/backgroundCopy_1.png',
-        link: '../html/Detail_DolceGusto.html',
+        image: './img/backgroundCopy_1.png',
+        link: './html/Detail_DolceGusto.html',
         type:4
     },
     {
@@ -22,8 +22,8 @@ var arrayOfAroma = [
         name: 'Guatemala Coffee',
         price: '$25.00',
         priceCurrent:25,
-        image: '../img/product-img-8.png',
-        link:'../html/Detail_Guatemala.html',
+        image: './img/product-img-8.png',
+        link:'./html/Detail_Guatemala.html',
         type:3
     },
     {
@@ -31,8 +31,8 @@ var arrayOfAroma = [
         name: 'Indonesia Coffee',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../img/product-img-10.png',
-        link: '../html/Detail_IndonesiaCoffee.html',
+        image: './img/product-img-10.png',
+        link: './html/Detail_IndonesiaCoffee.html',
         type: 3
     }
 ]
@@ -43,8 +43,8 @@ var arrayOfBeans = [
         name: 'FRENCH PRESS',
         price: '$23.99',
         priceCurrent:23,
-        image: '../img/productList-img-21.png',
-        link: '../html/Detail_FrenchPress.html',
+        image: './img/productList-img-21.png',
+        link: './html/Detail_FrenchPress.html',
         type:2
     },
     {
@@ -52,8 +52,8 @@ var arrayOfBeans = [
         name: 'Guatemala Coffee',
         price: '$25.00',
         priceCurrent:25,
-        image: '../img/product-img-8.png',
-        link:'../html/Detail_Guatemala.html',
+        image: './img/product-img-8.png',
+        link:'./html/Detail_Guatemala.html',
         type:3
     },
     {
@@ -61,8 +61,8 @@ var arrayOfBeans = [
         name: 'Brazil Coffee',
         price: '$35.00',
         priceCurrent: 35,
-        image: '../img/product-img-11.png',
-        link: '../html/Detail_BrazilCoffee.html',
+        image: './img/product-img-11.png',
+        link: './html/Detail_BrazilCoffee.html',
         type: 3
     }
 ]
@@ -73,8 +73,8 @@ var arrayOfBlack = [
         name: 'ETHIOPIA COFFEE',
         price: '$15.99',
         priceCurrent:15,
-        image: '../img/productList-img-1.png',
-        link:'../html/Detail_ProductList.html',
+        image: './img/productList-img-1.png',
+        link:'./html/Detail_ProductList.html',
         type:1
     },
     {
@@ -82,8 +82,8 @@ var arrayOfBlack = [
         name: 'KENYA COFFEE',
         price: '$18.00',
         priceCurrent:18,
-        image: '../img/productList-img-3.png',
-        link: '../html/Detail_KenyaCoffee.html',
+        image: './img/productList-img-3.png',
+        link: './html/Detail_KenyaCoffee.html',
         type:3
     },
     {
@@ -91,8 +91,8 @@ var arrayOfBlack = [
         name: 'Columbia Coffee',
         price: '$21.00',
         priceCurrent:21,
-        image: '../img/productList-img-5.png',
-        link:'../html/Detai_ColumbiaCoffee.html',
+        image: './img/productList-img-5.png',
+        link:'./html/Detai_ColumbiaCoffee.html',
         type:4
     },
     {
@@ -100,8 +100,8 @@ var arrayOfBlack = [
         name: 'Espresso Machine',
         price: '$600.00',
         priceCurrent:600,
-        image: '../img/ProductList-img-7.png',
-        link:'../html/Detail_EspressoMachine.html',
+        image: './img/ProductList-img-7.png',
+        link:'./html/Detail_EspressoMachine.html',
         type:0
     },
     {
@@ -109,8 +109,8 @@ var arrayOfBlack = [
         name: 'Filter handle',
         price: '$80.00',
         priceCurrent:80,
-        image: '../img/ProductList-img-9.png',
-        link:'../html/Detail_FilterHandle.html',
+        image: './img/ProductList-img-9.png',
+        link:'./html/Detail_FilterHandle.html',
         type:3
     },
     {
@@ -118,8 +118,8 @@ var arrayOfBlack = [
         name: 'Brazil Coffee',
         price: '$35.00',
         priceCurrent: 35,
-        image: '../img/product-img-11.png',
-        link: '../Detail_BrazilCoffee.html',
+        image: './img/product-img-11.png',
+        link: './Detail_BrazilCoffee.html',
         type: 3
     }
 ]
@@ -129,8 +129,8 @@ var arrayOfCasual = [
         name: 'ETHIOPIA COFFEE',
         price: '$15.99',
         priceCurrent:15,
-        image: '../img/productList-img-1.png',
-        link:'../html/Detail_ProductList.html',
+        image: './img/productList-img-1.png',
+        link:'./html/Detail_ProductList.html',
         type:1
     },
     {
@@ -138,8 +138,8 @@ var arrayOfCasual = [
         name: 'KENYA COFFEE',
         price: '$18.00',
         priceCurrent:18,
-        image: '../img/productList-img-3.png',
-        link: '../html/Detail_KenyaCoffee.html',
+        image: './img/productList-img-3.png',
+        link: './html/Detail_KenyaCoffee.html',
         type:3
     },
     {
@@ -147,8 +147,8 @@ var arrayOfCasual = [
         name: 'Columbia Coffee',
         price: '$21.00',
         priceCurrent:21,
-        image: '../img/productList-img-5.png',
-        link:'../html/Detai_ColumbiaCoffee.html',
+        image: './img/productList-img-5.png',
+        link:'./html/Detai_ColumbiaCoffee.html',
         type:4
     },
     {
@@ -156,8 +156,8 @@ var arrayOfCasual = [
         name: 'Coffee Kettle',
         price: '$90.00',
         priceCurrent:90,
-        image: '../img/ProductList-img-6.png',
-        link:'../html/Detail_CoffeeKettle.html',
+        image: './img/ProductList-img-6.png',
+        link:'./html/Detail_CoffeeKettle.html',
         type:1
     },
     {
@@ -165,8 +165,8 @@ var arrayOfCasual = [
         name: 'Brazil Coffee',
         price: '$35.00',
         priceCurrent: 35,
-        image: '../img/product-img-11.png',
-        link: '../html/Detail_BrazilCoffee.html',
+        image: './img/product-img-11.png',
+        link: './html/Detail_BrazilCoffee.html',
         type: 3
     },
     {
@@ -174,8 +174,8 @@ var arrayOfCasual = [
         name: 'Mental Cup',
         price: '$23.00',
         priceCurrent: 23,
-        image: '../img/ProductList-img-MetalCup.png',
-        link: '../html/Detai_MeatlCup.html',
+        image: './img/ProductList-img-MetalCup.png',
+        link: './html/Detai_MeatlCup.html',
         type: 3
     },
     {
@@ -183,8 +183,8 @@ var arrayOfCasual = [
         name: 'Dispensing Tray',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../img/ProductList-img-DespensingTray.png',
-        link: '../html/Detail_DispensingTray.html',
+        image: './img/ProductList-img-DespensingTray.png',
+        link: './html/Detail_DispensingTray.html',
         type: 3
     },
     {
@@ -192,8 +192,8 @@ var arrayOfCasual = [
         name: 'Measuring Cup',
         price: '$16.00',
         priceCurrent: 16,
-        image: '../img/ProductList-img-MeasuringCup.png',
-        link: '../html/Detail_MeasuringCup.html',
+        image: './img/ProductList-img-MeasuringCup.png',
+        link: './html/Detail_MeasuringCup.html',
         type: 3
     },
     {
@@ -201,8 +201,8 @@ var arrayOfCasual = [
         name: 'Ceramic Cup',
         price: '$37.00',
         priceCurrent: 37,
-        image: '../img/Productlist-img-CeramicCup.png',
-        link: '../html/Detail_CeramicCup.html',
+        image: './img/Productlist-img-CeramicCup.png',
+        link: './html/Detail_CeramicCup.html',
         type: 3
     }
 ]
@@ -213,8 +213,8 @@ var arrayOfClassic = [
         name: 'ETHIOPIA COFFEE',
         price: '$15.99',
         priceCurrent:15,
-        image: '../img/productList-img-1.png',
-        link:'../html/Detail_ProductList.html',
+        image: './img/productList-img-1.png',
+        link:'./html/Detail_ProductList.html',
         type:1
     },
     {
@@ -222,8 +222,8 @@ var arrayOfClassic = [
         name: 'KENYA COFFEE',
         price: '$18.00',
         priceCurrent:18,
-        image: '../img/productList-img-3.png',
-        link: '../html/Detail_KenyaCoffee.html',
+        image: './img/productList-img-3.png',
+        link: './html/Detail_KenyaCoffee.html',
         type:3
     },
     {
@@ -231,8 +231,8 @@ var arrayOfClassic = [
         name: 'Columbia Coffee',
         price: '$21.00',
         priceCurrent:21,
-        image: '../img/productList-img-5.png',
-        link:'../html/Detai_ColumbiaCoffee.html',
+        image: './img/productList-img-5.png',
+        link:'./html/Detai_ColumbiaCoffee.html',
         type:4
     },
     {
@@ -240,8 +240,8 @@ var arrayOfClassic = [
         name: 'Espresso Machine',
         price: '$600.00',
         priceCurrent:600,
-        image: '../img/ProductList-img-7.png',
-        link:'../html/Detail_EspressoMachine.html',
+        image: './img/ProductList-img-7.png',
+        link:'./html/Detail_EspressoMachine.html',
         type:0
     },
     {
@@ -249,8 +249,8 @@ var arrayOfClassic = [
         name: 'Filter handle',
         price: '$80.00',
         priceCurrent:80,
-        image: '../img/ProductList-img-9.png',
-        link:'../html/Detail_FilterHandle.html',
+        image: './img/ProductList-img-9.png',
+        link:'./html/Detail_FilterHandle.html',
         type:3
     }
 ]
@@ -261,8 +261,8 @@ var arrayOfCream = [
         name: 'Coffee Kettle',
         price: '$90.00',
         priceCurrent:90,
-        image: '../img/ProductList-img-6.png',
-        link:'../html/Detail_CoffeeKettle.html',
+        image: './img/ProductList-img-6.png',
+        link:'./html/Detail_CoffeeKettle.html',
         type:1
     },
     {
@@ -270,8 +270,8 @@ var arrayOfCream = [
         name: 'Espresso Machine',
         price: '$600.00',
         priceCurrent:600,
-        image: '../img/ProductList-img-7.png',
-        link:'../html/Detail_EspressoMachine.html',
+        image: './img/ProductList-img-7.png',
+        link:'./html/Detail_EspressoMachine.html',
         type:0
     },
     {
@@ -279,8 +279,8 @@ var arrayOfCream = [
         name: 'Filter handle',
         price: '$80.00',
         priceCurrent:80,
-        image: '../img/ProductList-img-9.png',
-        link:'../html/Detail_FilterHandle.html',
+        image: './img/ProductList-img-9.png',
+        link:'./html/Detail_FilterHandle.html',
         type:3
     },
     {
@@ -288,8 +288,8 @@ var arrayOfCream = [
         name: 'Mental Cup',
         price: '$23.00',
         priceCurrent: 23,
-        image: '../img/ProductList-img-MetalCup.png',
-        link: '../html/Detai_MeatlCup.html',
+        image: './img/ProductList-img-MetalCup.png',
+        link: './html/Detai_MeatlCup.html',
         type: 3
     },
     {
@@ -297,8 +297,8 @@ var arrayOfCream = [
         name: 'Dispensing Tray',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../img/ProductList-img-DespensingTray.png',
-        link: '../html/Detail_DispensingTray.html',
+        image: './img/ProductList-img-DespensingTray.png',
+        link: './html/Detail_DispensingTray.html',
         type: 3
     },
     {
@@ -306,8 +306,8 @@ var arrayOfCream = [
         name: 'Ceramic Cup',
         price: '$37.00',
         priceCurrent: 37,
-        image: '../img/Productlist-img-CeramicCup.png',
-        link: '../html/Detail_CeramicCup.html',
+        image: './img/Productlist-img-CeramicCup.png',
+        link: './html/Detail_CeramicCup.html',
         type: 3
     },
     {
@@ -315,8 +315,8 @@ var arrayOfCream = [
         name: 'Coffee Capsule',
         price: '$12.00',
         priceCurrent: 12,
-        image: '../img/productList-img-CoffeeCapsule.png',
-        link: '../html/Detail_CoffeeCapsule.html',
+        image: './img/productList-img-CoffeeCapsule.png',
+        link: './html/Detail_CoffeeCapsule.html',
         type: 3
     }
 ]
@@ -327,8 +327,8 @@ var arrayOfElegant = [
         name: 'Coffee Kettle',
         price: '$90.00',
         priceCurrent:90,
-        image: '../img/ProductList-img-6.png',
-        link:'../html/Detail_CoffeeKettle.html',
+        image: './img/ProductList-img-6.png',
+        link:'./html/Detail_CoffeeKettle.html',
         type:1
     },
     {
@@ -336,8 +336,8 @@ var arrayOfElegant = [
         name: 'Espresso Machine',
         price: '$600.00',
         priceCurrent:600,
-        image: '../img/ProductList-img-7.png',
-        link:'../html/Detail_EspressoMachine.html',
+        image: './img/ProductList-img-7.png',
+        link:'./html/Detail_EspressoMachine.html',
         type:0
     },
     {
@@ -345,8 +345,8 @@ var arrayOfElegant = [
         name: 'Filter handle',
         price: '$80.00',
         priceCurrent:80,
-        image: '../img/ProductList-img-9.png',
-        link:'../html/Detail_FilterHandle.html',
+        image: './img/ProductList-img-9.png',
+        link:'./html/Detail_FilterHandle.html',
         type:3
     },
     {
@@ -354,8 +354,8 @@ var arrayOfElegant = [
         name: 'Mental Cup',
         price: '$23.00',
         priceCurrent: 23,
-        image: '../img/ProductList-img-MetalCup.png',
-        link: '../html/Detai_MeatlCup.html',
+        image: './img/ProductList-img-MetalCup.png',
+        link: './html/Detai_MeatlCup.html',
         type: 3
     },
     {
@@ -363,8 +363,8 @@ var arrayOfElegant = [
         name: 'Dispensing Tray',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../img/ProductList-img-DespensingTray.png',
-        link: '../html/Detail_DispensingTray.html',
+        image: './img/ProductList-img-DespensingTray.png',
+        link: './html/Detail_DispensingTray.html',
         type: 3
     },
     {
@@ -372,8 +372,8 @@ var arrayOfElegant = [
         name: 'Ceramic Cup',
         price: '$37.00',
         priceCurrent: 37,
-        image: '../img/Productlist-img-CeramicCup.png',
-        link: '../html/Detail_CeramicCup.html',
+        image: './img/Productlist-img-CeramicCup.png',
+        link: './html/Detail_CeramicCup.html',
         type: 3
     },
     {
@@ -381,8 +381,8 @@ var arrayOfElegant = [
         name: 'Coffee Capsule',
         price: '$12.00',
         priceCurrent: 12,
-        image: '../img/productList-img-CoffeeCapsule.png',
-        link: '../html/Detail_CoffeeCapsule.html',
+        image: './img/productList-img-CoffeeCapsule.png',
+        link: './html/Detail_CoffeeCapsule.html',
         type: 3
     }
 ]
@@ -393,8 +393,8 @@ var arrayOfFresh = [
         name: 'DOLCE GUSTO',
         price: '$12.00',
         priceCurrent:12,
-        image: '../img/backgroundCopy_1.png',
-        link: '../html/Detail_DolceGusto.html',
+        image: './img/backgroundCopy_1.png',
+        link: './html/Detail_DolceGusto.html',
         type:4
     },
     {
@@ -402,8 +402,8 @@ var arrayOfFresh = [
         name: 'Indonesia Coffee',
         price: '$30.00',
         priceCurrent: 30,
-        image: '../img/product-img-10.png',
-        link: '../html/Detail_IndonesiaCoffee.html',
+        image: './img/product-img-10.png',
+        link: './html/Detail_IndonesiaCoffee.html',
         type: 3
     }
 ]

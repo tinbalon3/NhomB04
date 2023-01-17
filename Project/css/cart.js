@@ -16,33 +16,13 @@ var prevScrollpos = window.pageYOffset;
             prevScrollpos = currentScrollPos;
             }
 
-            var button_remove=document.querySelectorAll('.js-remove');
             var total_item=document.querySelectorAll('.js-total');
             var contentbox=document.querySelector('.js-content_1');
             var contentbox_2=document.querySelector('.js-content_2');
            
             var modal=document.querySelector('.modal_empty');
-            var count=0;
-            for(let i=0;i<button_remove.length;i++)
-            {
-                button_remove[i].addEventListener('click',function()
-                {
-                    count++;
-                    console.log(count);
-                    item[i].style.display='none';
-                    if(count==button_remove.length)
-                    {
-                        modal.style.display='block';
-                        setTimeout(function()
-                        {
-                            contentbox.classList.add('close');
-                            contentbox_2.classList.add('open');
-                            modal.style.display='none';
-                        },1500);
-                    }
-                })
-            
-            }
+           
+           
             function resetConfig()
             {
             localStorage.removeItem("DetailHD");
@@ -148,7 +128,6 @@ var prevScrollpos = window.pageYOffset;
                 </span>
             </th>
             </tr>`;
-            console.log(details)
                 ObjectItem.push(details);
             }
             localStorage.setItem("DetailHD",JSON.stringify({ ObjectItem: ObjectItem, total: total_item[0].innerHTML}))
@@ -156,6 +135,36 @@ var prevScrollpos = window.pageYOffset;
        
         var checked = document.querySelector('.check-button');
        
+        
+        
+        
+       
+        // const count = 0;
+        
+        
+        //     for(let i=0;i<document.querySelectorAll('.js-remove').length;i++)
+        //     {
+                
+        //         document.querySelectorAll('.js-remove')[i].addEventListener('click',function()
+        //         {
+        //             count++;
+        //             console.log(count);
+        //             document.querySelectorAll('.js-item')[i].style.display='none';
+        //             if(count==document.querySelectorAll('.js-remove').length)
+        //             {
+                       
+        //                 modal.style.display='block';
+        //                 setTimeout(function()
+        //                 {
+        //                     contentbox.classList.add('close');
+        //                     contentbox_2.classList.add('open');
+        //                     modal.style.display='none';
+        //                 },1500);
+        //             }
+        //         })
+            
+        //     }
+        
         
         
         

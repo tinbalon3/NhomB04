@@ -1,3 +1,4 @@
+
 function setWidth()
         {
             //Set width span nav_user
@@ -18,10 +19,10 @@ function setWidth()
             document.querySelector('.username_customer').innerHTML=credentials.name;
             if(document.querySelector(".slider__button"))
             {
-                document.querySelector(".slider__button").href='../Product-List-main/index_productList.html'
+                document.querySelector(".slider__button").href='../../Product-List-main/index_productList.html'
             }
             
-            document.querySelector(".product").href ="../Product-List-main/index_productList.html"
+            document.querySelector(".product").href ='../../Product-List-main/index_productList.html'
             setWidth();
         }
         function setConfig(value)
